@@ -44,7 +44,7 @@ h6 {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -60,9 +60,11 @@ h6 {
 }
 
 .logo__img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 201px;
+  top: 0px;
 }
 
 .nav {
@@ -180,4 +182,79 @@ h6 {
   font-size: 16px;
   line-height: 19px;
   color: rgba(255, 255, 255, 0.7);
+}
+
+.order {
+  padding: 73px 0px;
+  background: #312f30;
+}
+
+.order__container {
+  display: flex;
+  align-items: center;
+}
+
+.order__img-wrap {
+  width: 50%;
+}
+
+.oder__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.order__desc {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.action {
+}
+
+.order__action {
+  min-width: 371px;
+  padding: ;
+}
+
+.action__tittle {
+  font-weight: 500;
+  font-size: 44.2px;
+  line-height: 52px;
+  margin-bottom: 24px;
+}
+
+.action__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 13px;
+
+}
+
+.action__price {
+  margin-bottom: 11px;
+}
+
+.action__price-new {
+  font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.1em;
+color: rgba(246, 118, 44, 1);
+
+}
+
+.action__price-old {
+  font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.1em;
+text-decoration-line: line-through;
+color: rgba(246, 118, 44, 0.5);
+}
+
+.btn {
 }
